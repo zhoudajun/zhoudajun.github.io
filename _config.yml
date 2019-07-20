@@ -120,10 +120,10 @@ menu:
   home: /
   #categories: /categories
   archives: /archives
-  notes: category/#/notes
-  technology: category/#/technology
-  vocational: category/#/vocational
-  murmur: category/#/murmur
+notes: category/#/notes
+technology: category/#/technology
+vocational: category/#/vocational
+murmur: category/#/murmur
   about: /about
   #tags: /tags/
   #sitemap: /sitemap.xml
@@ -399,12 +399,37 @@ disqus:
   # count need to be false when hide is true
   hide: false
 
-# reward_comment: 如果内容对你有帮助，那就来杯酸奶助我继续分享吧 (＾－＾)V
-# wechatpay: http://ishanshan.zoomquiet.top/share/rewardblogwechatpay-3.jpeg?imageView2/2/w/280
-# alipay: http://ishanshan.zoomquiet.top/share/rewardblogalipay.jpeg?imageView2/2/w/300
+# <wildfire>
+wildfire:
+  enable: false
+  # version - It's recommended to use the following versions.
+  loaderVersion: 1.2.5 # https://www.npmjs.com/package/wildfire-comment
+  useDev: true
+  version: 0.5.6 
+  # database config
+  databaseProvider: firebase # or wilddog
+  firebase: # your firebase config goes here ↓
+    apiKey: 
+    authDomain:
+    databaseURL:
+    projectId:
+    storageBucket:
+    messagingSenderId:
+  wilddog: # your wilddog config goes here ↓
+    siteId:
+  # other configs
+  theme: light # or dark
+  locale: en # or other locales, e.g. zh-CN
+  defaultAvatarURL: 
+# Any question? 
+# Raise an issue here: https://github.com/cheng-kang/wildfire/issues
+# </wildfire>
 
 # Hypercomments
 #hypercomments_id:
+
+# Gentie productKey
+#gentie_productKey:
 
 # changyan
 changyan:
