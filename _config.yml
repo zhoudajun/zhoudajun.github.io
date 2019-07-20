@@ -120,10 +120,10 @@ menu:
   home: /
   #categories: /categories
   archives: /archives
-  notes: /notes
-  technology: /technology
-  vocational: /vocational
-  murmur: /murmur
+  notes: category/#/notes
+  technology: category/#/technology
+  vocational: category/#/vocational
+  murmur: category/#/murmur
   about: /about
   #tags: /tags/
   #sitemap: /sitemap.xml
