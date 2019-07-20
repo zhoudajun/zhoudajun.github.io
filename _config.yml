@@ -119,7 +119,7 @@ index_with_subtitle: false
 menu:
   home: /
   #categories: /categories
-  archives: /archives
+archives: /archives
 notes: category/#/notes
 technology: category/#/technology
 vocational: category/#/vocational
@@ -144,7 +144,7 @@ menu_icons:
   categories: th
   schedule: calendar
 # tags: tags
-  archives: archive
+archives: archive
 # sitemap: sitemap
 # commonweal: heartbeat
   notes: angle-double-right
