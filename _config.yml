@@ -16,10 +16,10 @@ date_format: '%Y-%m-%d'
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url:
 baseurl:
-permalink: pretty
+permalink: /:categories/:title
 
 # Pagination
-paginate: 10
+paginate: 7
 #paginate_path: "/page:num/"
 #archive:
   #paginate: 100
@@ -79,7 +79,7 @@ plugins:
 favicon: /assets/images/IMG_4832.jpg
 
 # Set default keywords (Use a comma to separate)
-keywords: "zhoudajun'blog"
+keywords: "zhoudajun's blog"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -87,7 +87,7 @@ keywords: "zhoudajun'blog"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2019
 
 # icon between year and author @Footer
 authoricon: heart
@@ -262,7 +262,7 @@ toc:
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
-#creative_commons: by-sa
+creative_commons: by-sa
 #creative_commons:
 
 
@@ -399,37 +399,12 @@ disqus:
   # count need to be false when hide is true
   hide: false
 
-# <wildfire>
-wildfire:
-  enable: false
-  # version - It's recommended to use the following versions.
-  loaderVersion: 1.2.5 # https://www.npmjs.com/package/wildfire-comment
-  useDev: true
-  version: 0.5.6 
-  # database config
-  databaseProvider: firebase # or wilddog
-  firebase: # your firebase config goes here ↓
-    apiKey: 
-    authDomain:
-    databaseURL:
-    projectId:
-    storageBucket:
-    messagingSenderId:
-  wilddog: # your wilddog config goes here ↓
-    siteId:
-  # other configs
-  theme: light # or dark
-  locale: en # or other locales, e.g. zh-CN
-  defaultAvatarURL: 
-# Any question? 
-# Raise an issue here: https://github.com/cheng-kang/wildfire/issues
-# </wildfire>
+# reward_comment: 如果内容对你有帮助，那就来杯酸奶助我继续分享吧 (＾－＾)V
+# wechatpay: http://ishanshan.zoomquiet.top/share/rewardblogwechatpay-3.jpeg?imageView2/2/w/280
+# alipay: http://ishanshan.zoomquiet.top/share/rewardblogalipay.jpeg?imageView2/2/w/300
 
 # Hypercomments
 #hypercomments_id:
-
-# Gentie productKey
-#gentie_productKey:
 
 # changyan
 changyan:
@@ -566,7 +541,7 @@ busuanzi_count:
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: false
+baidu_push: true
 
 # Google Calendar
 # Share your recent schedule to others via calendar page
