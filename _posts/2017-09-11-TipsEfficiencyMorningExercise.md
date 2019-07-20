@@ -1,10 +1,10 @@
 \---
 
-layout: post
+layout:  post
 
-title: 体能 不能落 · 杂记
+title:  体能 不能落 · 杂记
 
-category: murmur
+category:  murmur
 
 \---
 
