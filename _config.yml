@@ -237,8 +237,8 @@ social_icons:
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
-  WeChat: blind
-  WeiBo: slideshare
+  WeChat: wechat
+  WeiBo: weibo
   Email: at
 
 
