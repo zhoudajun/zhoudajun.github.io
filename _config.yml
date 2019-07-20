@@ -223,7 +223,7 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
   GitHub: https://github.com/zhoudajun
-  OfficialAccounts: https://mp.weixin.qq.com/profile?src=3&timestamp=1563626017&ver=1&signature=VKiYzm6kRyyoNHFl6d4naUT8RGPYpzXnN-BdWpPAacPKIlKrxiSY9N8woVsbUXKWc34EwFAhrgPokC08ExxRlw==
+  WeiXin: https://mp.weixin.qq.com/profile?src=3&timestamp=1563626017&ver=1&signature=VKiYzm6kRyyoNHFl6d4naUT8RGPYpzXnN-BdWpPAacPKIlKrxiSY9N8woVsbUXKWc34EwFAhrgPokC08ExxRlw==
   WeiBo: https://www.weibo.com/2668294333/profile?topnav=1&wvr=6&is_all=1
   Email: mailto:374785733@qq.com
 
@@ -238,7 +238,7 @@ social_icons:
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
-  OfficialAccounts: blind
+  WeiXin: blind
   WeiBo: weibo
   Email: at
 
