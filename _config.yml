@@ -4,10 +4,10 @@
 # ---------------------------------------------------------------
 
 # Site
-title: ishanshan's blog
+title: zhoudajun's blog
 subtitle:
-description: Be a shaper.
-author: 闪闪 | ishanshan
+description: Be a apprenticer.
+author: 周炟君 | zhoudajun
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: '%Y-%m-%d'
@@ -76,10 +76,10 @@ plugins:
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `assets/` directory.
-favicon: /assets/images/favicon.ico
+favicon: /assets/images/IMG_4832.jpg
 
 # Set default keywords (Use a comma to separate)
-keywords: "ishanshan's blog"
+keywords: "zhoudajun's blog"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -87,7 +87,7 @@ keywords: "ishanshan's blog"
 rss:
 
 # Specify the date when the site was setup
-since: 2015
+since: 2019
 
 # icon between year and author @Footer
 authoricon: heart
@@ -120,9 +120,9 @@ menu:
   home: /
   #categories: /categories
   archives: /archives
-  selfedu: category/#/selfedu
-  community: category/#/community
-  tool: category/#/tool
+  notes: category/#/notes
+  technology: category/#/technology
+  vocational: category/#/vocational
   murmur: category/#/murmur
   about: /about
   #tags: /tags/
@@ -147,10 +147,10 @@ menu_icons:
   archives: archive
   # sitemap: sitemap
   # commonweal: heartbeat
-  selfedu: angle-double-right
-  community: angle-double-right
+  notes: angle-double-right
+  technology: angle-double-right
   murmur: angle-double-right
-  tool: angle-double-right
+  vocational: angle-double-right
 
 
 # ---------------------------------------------------------------
@@ -221,10 +221,10 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
-  GitHub: https://github.com/ishanshan
-  Usage: https://github.com/ishanshan/collaborate_ishanshan/blob/master/usage_ishanshan.md
-  SlideShare: https://www.slideshare.net/ssusere6acd7/presentations
-  Email: mailto:ishanshan.huang@gmail.com
+  GitHub: https://github.com/zhoudajun
+  WeChat: https://mp.weixin.qq.com/profile?src=3&timestamp=1563626017&ver=1&signature=VKiYzm6kRyyoNHFl6d4naUT8RGPYpzXnN-BdWpPAacPKIlKrxiSY9N8woVsbUXKWc34EwFAhrgPokC08ExxRlw==
+  WeiBo: https://www.weibo.com/2668294333/profile?topnav=1&wvr=6&is_all=1
+  Email: mailto:374785733@qq.com
 
 
 # Social Links Icons
@@ -237,14 +237,14 @@ social_icons:
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
-  Usage: blind
-  SlideShare: slideshare
+  WeChat: blind
+  WeiBo: slideshare
   Email: at
 
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-avatar: /assets/images/ishanshan1409.jpeg
+avatar: /assets/images/zhoudajun.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -292,15 +292,9 @@ sidebar:
 
 
 # Blog rolls
-links_title: Other Resources
+#links_title: Other Resources
 #links_layout: block
 #links_layout: inline
-links:
-  0. Guide for Collaborating as A Shaper: https://github.com/ishanshan/CollaborationGuide4Shaper
-  1. Self-learning Tools for Collaborating to Knowledge Workers: https://docs.google.com/spreadsheets/d/1xdfbrkQgvuV0FvD5uGFEQ070GC2Ybi2yenDEQAmRj9o/edit#gid=0
-  2. Guide for Swing Dancing: https://github.com/ishanshan/EnjoySwingDancing
-  3. Memo of Becoming A Strategy PM: https://road2strategypm.ishanshan.im
-  4. Plan for Parenting: https://github.com/ishanshan/ForFamily/blob/master/HbParenting.md
 
 
 # ---------------------------------------------------------------
@@ -388,7 +382,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-baidu_analytics: ceb2b9dcf6de10d1a14324287c263e54
+baidu_analytics: 41fc030db57d5570dd22f78997dc4a7e
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -396,15 +390,15 @@ baidu_analytics: ceb2b9dcf6de10d1a14324287c263e54
 # Disqus
 disqus:
   enable: true
-  shortname: ishanshanblog
+  shortname: zhoudajunblog
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
   hide: false
 
-reward_comment: 如果内容对你有帮助，那就来杯酸奶助我继续分享吧 (＾－＾)V
-wechatpay: http://ishanshan.zoomquiet.top/share/rewardblogwechatpay-3.jpeg?imageView2/2/w/280
-alipay: http://ishanshan.zoomquiet.top/share/rewardblogalipay.jpeg?imageView2/2/w/300
+# reward_comment: 如果内容对你有帮助，那就来杯酸奶助我继续分享吧 (＾－＾)V
+# wechatpay: http://ishanshan.zoomquiet.top/share/rewardblogwechatpay-3.jpeg?imageView2/2/w/280
+# alipay: http://ishanshan.zoomquiet.top/share/rewardblogalipay.jpeg?imageView2/2/w/300
 
 
 # Hypercomments
