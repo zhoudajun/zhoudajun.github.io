@@ -23,7 +23,7 @@ author: zhoudajun
 
 # 域名配置
 # baseUrl配置,如果网站部署在根目录下的目录中，请设置为 /目录名
-domainUrl: 'https://zhoudajun.github.io/'
+domainUrl: 'https://zhoudajun.club/'
 baseUrl: ''
 
 # 菜单
