@@ -34,8 +34,8 @@ menu:
     url: /pages/categories.html
   - title: Search
     url: /pages/search.html
-  - title: Links
-    url: /pages/links.html
+  # - title: Links
+   # url: /pages/links.html
   # - title: Chat
    # url: /pages/chat.html
   - title: About
