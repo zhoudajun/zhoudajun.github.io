@@ -49,6 +49,16 @@ mta: false
 mtaSid: 
 mtaCid: 
 
+# ---------------- #
+#      Comments    #
+# ---------------- #
+comments_provider: gitalk
+gitalk:
+    owner: zhoudajun
+    repo: zhoudajun.github.io
+    clientID: 1c1e5f846ea94bd66d7e
+    clientSecret: 4158fd2b0b53c60389068b49ef801f55e170473f
+
 
 # 这些不要动
 permalink: /posts/:year/:month/:day/:title.html
