@@ -16,21 +16,3 @@
 {% include script.html %}
 </body>
 </html>
-
-<!-- Gitalk start -->
-<div id="gitalk-container"></div> 
- <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
- <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-<script>
-    var gitalk  = new Gitalk ({
-        id: location.pathname.substr(0, 50),   // Ensure uniqueness and length less than 50
-        clientID: '1c1e5f846ea94bd66d7e',
-        clientSecret: '4158fd2b0b53c60389068b49ef801f55e170473f',
-        repo: 'zhoudajun.github.io',
-        owner: 'zhoudajun',
-        admin: ['zhoudajun'],
-		    distractionFreeMode: false  // Facebook-like distraction free mode
-    })
-    gitalk.render('gitalk-container')
-</script> 
-<!-- Gitalk end -->
