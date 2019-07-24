@@ -16,21 +16,3 @@
 {% include script.html %}
 </body>
 </html>
-
-{% if site.comment_gitment_repo %}
-<div id="gitmentContainer"></div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script>
-    var gitment = new Gitment({
-		id: '<%= page.date %>',
-        owner: 'zhoudajun',
-        repo: 'zhoudajun.github.io',
-        oauth: {
-        client_id: '1c1e5f846ea94bd66d7e',
-        client_secret: '4158fd2b0b53c60389068b49ef801f55e170473f',
-        },
-    });
-    gitment.render('gitmentContainer')
-</script>
-{% endif %}
