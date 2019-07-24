@@ -8,7 +8,7 @@ title: 关于我
 
 该博客托管于 GitHub Page，国内默认解析到阿里云，以保证国内外的访问速度。留言页面使用的是 Bmob 云的免费套餐，另外使用的腾讯的 MTA 分析工具统计访问量
 
-该博客主题是 TMaize Blog 写的，见[tmaize-blog](https://github.com/TMaize/tmaize-blog)，欢迎 **Star** 和 **Fork**。
+该博客主题是 TMaize 写的，见 [tmaize-blog](https://github.com/TMaize/tmaize-blog)，欢迎 **Star** 和 **Fork**。
 
 
 ## 联系我
