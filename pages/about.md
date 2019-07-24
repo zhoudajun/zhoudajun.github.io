@@ -9,7 +9,7 @@ title: 关于我
 
 - WeiBo : [zhoudajun2017](https://www.weibo.com/2668294333/profile?topnav=1&wvr=6&is_all=1)
 
-- Email : [zhoudajun2017@icloud.com](mailto:zhoudajun2017@icloud.com)
+- Email : <a href="mailto:zhoudajun2017@icloud.com">zhoudajun2017@icloud.com</a>
 
 - GitHub : [https://github.com/zhoudajun](https://github.com/zhoudajun)
 
