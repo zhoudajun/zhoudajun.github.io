@@ -17,20 +17,18 @@
 </body>
 </html>
 
-<div id="gitmentContainer"></div>
-<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
-<script src="https://jjeejj.github.io/js/gitment.js"></script>
-<script>
-var gitment = new Gitment({
-    id: 'GitHub+Jekyll个人博客添加访问量和gitment评论',
-    owner: 'zhoudajun',
+ <div id="gitmentContainer"></div>
+ <link rel="stylesheet" href="https://billts.site/extra_css/gitment.css">
+ <script src="https://billts.site/js/gitment.js"></script>
+ <script>
+ var gitment = new Gitment({
+ 	id: '<%= page.date %>',
+     owner: 'zhoudajun',
     repo: 'zhoudajun.github.io',
     oauth: {
         client_id: '1c1e5f846ea94bd66d7e',
         client_secret: '4158fd2b0b53c60389068b49ef801f55e170473f',
-    },
-});
-gitment.render('gitmentContainer');
-</script>
-</div>
-
+     },
+ });
+ gitment.render('gitmentContainer');
+ </script>
