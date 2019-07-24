@@ -52,7 +52,7 @@ mtaCid:
 # Gitalk settings
 comment_gitalk_clientId: 1c1e5f846ea94bd66d7e
 comment_gitalk_clientSecret: 4158fd2b0b53c60389068b49ef801f55e170473f
-comment_gitalk_repo: https://zhoudajun.club
+comment_gitalk_repo: zhoudajun.github.io
 github_username: zhoudajun
 
 # 这些不要动
