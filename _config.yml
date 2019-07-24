@@ -49,8 +49,6 @@ mta: false
 mtaSid: 
 mtaCid:
 
-intensedebate_comments: true
-
 # 这些不要动
 permalink: /posts/:year/:month/:day/:title.html
 kramdown:
