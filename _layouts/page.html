@@ -1,6 +1,12 @@
----
-layout: layout
----
-
-{% assign __ = site.data.languages[site.language] %}
-{% include page.html %}
+{%- assign pageCSS = page.css -%}
+{%- assign pageJS = page.js -%}
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body ondragstart="return false;">
+{% include header.html %}
+{{ content }}
+{% include footer.html %}
+{% include script.html %}
+</body>
+</html>
