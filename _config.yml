@@ -49,6 +49,22 @@ mta: false
 mtaSid: 
 mtaCid: 
 
+#gitment
+
+gitment:
+  enable: true
+  mint: true        # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
+  count: true       # Show comments count in post meta area
+  lazy: false       # Comments lazy loading with a button
+  cleanly: false    # Hide 'Powered by ...' on footer, and more
+  language:         # Force language, or auto switch by theme
+  github_user: zhoudajun # 此处 - Your Github ID
+  github_repo: zhoudajun.github.io # 此处注意 - The repo you use to store Gitment comments
+  client_id: 1c1e5f846ea94bd66d7e   # 此处 - Github client id for the Gitment
+  client_secret: 4158fd2b0b53c60389068b49ef801f55e170473f # 此处 - Github access secret token for the Gitment
+  proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
+  redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
+
 # 这些不要动
 permalink: /posts/:year/:month/:day/:title.html
 kramdown:
