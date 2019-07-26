@@ -27,7 +27,7 @@ SNS: true
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
 # mail: 'mailto:374785733@qq.com'
 # weixin: 'https://u.wechat.com/MNcGYKIVOwlbHARVH799TNU' # 你的微信二维码存放的地址
-  qq: 'http://wpa.qq.com/msgrd?v=3&uin='374785733'&site=qq&menu=yes' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
+# qq: 'http://wpa.qq.com/msgrd?v=3&uin='374785733'&site=qq&menu=yes' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
   github: 'https://github.com/zhoudajun'
 # Codepen: ''
   weibo: 'https://m.weibo.cn/p/2304132668294333_-_WEIBO_SECOND_PROFILE_WEIBO'
