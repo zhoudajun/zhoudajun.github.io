@@ -1,58 +1,90 @@
-encoding: utf-8
+# Site settings 配置站点
+title: 'your awesome title'
+description: 'your web description'
+keywords: 'your web keywords, another keywords'
+url: 'https://abc.github.io' # your host
 
-# SEO相关信息
-title: zhoudajun's Blog
-description: 对结果负责，用作品说话
-keywords: zhoudajun,Blog,python,AI,read
-author: zhoudajun
-#footerText: 'Copyright © 2016 皖ICP备16016174号'
+# nav 中文字符空格：&emsp;
+nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
+  首页: '/'
+  标签: '/tags.html'
+  时间线: '/timeline.html'
+  关于博主: '/about.html'
+  友情链接: '/friendLink.html'
 
-# 留言配置, 不需要的话值设置为空，同时删除 # 菜单 配置项中的留言页面
-# 官网 https://www.bmob.cn
-# 文档 https://bmob.github.io/hydrogen-js-sdk
-# 建议自己申请一个，表结构如下
-# 表名 Comment ,字段如下 
-# url      String
-# time     Date
-# nickName String
-# email    String
-# content  String
-# website  String
-# bmobApplicationId: 34f0386ac5bd50fd77fe82190af00faf
-# bmobRestApiKey: 6f1419c800083315432f2df7dcb503d4
+# 博主
+author: true
+name: 'your awesome name'
+NickName: 'your awesome nickname'
+webtitle: 'your awesome webtitle'
+bio: 'your awesome bio'
+about: true
+aboutyou: 'your introduction'
+portraits: '/assets/profile.jpeg' # your portraits image file path
 
-# 域名配置
-# baseUrl配置,如果网站部署在根目录下的目录中，请设置为 /目录名
-domainUrl: 'https://zhoudajun.club/'
-baseUrl: ''
+# SNS
+SNS: true
+SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
+  mail: 'mailto:abc@gmail.com'
+  weixin: '' # 你的微信二维码存放的地址
+  qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
+  github: ''
+  Codepen: ''
+  weibo: ''
+  instagram: ''
+  Twitter: ''
+  Dribbble: ''
+  Facebook: ''
+  Google: ''
+  zhihu: ''
+  juejin: ''
+  twitch: ''
 
-# 菜单
-menu:
-  - title: Home
-    url: /
-  - title: Categories
-    url: /pages/categories.html
-  - title: Search
-    url: /pages/search.html
-  # - title: Links
-   # url: /pages/links.html
-  # - title: Chat
-   # url: /pages/chat.html
-  - title: About
-    url: /pages/about.html
+# 分页
+paginate: 2
+paginatepath: ['page:num']
 
-# 腾讯移动分析设置
-# 官网 https://mta.qq.com
-# 如果需要请申请自己的，sid，cid 在统计代码里找
-# 不需要请设置为false，mtaSid，mtaCid置空
-mta: false
-mtaSid: 
-mtaCid:
+# since
+footer:
+  since: 2018
 
-
-# 这些不要动
-permalink: /posts/:year/:month/:day/:title.html
+# Markdown
+markdown: kramdown
 kramdown:
-  auto_ids: true
   input: GFM
-exclude: ['CNAME', 'README.md', 'build-tool']
+# 代码高亮 使用rouge
+highlighter: rouge
+# 代码高亮主题使用pygments主题: autumn\ default\ emacs\ friendly\ manni\ murphy\ pastie\ perldoc\ tango 任选一个你喜欢的主题名称填在下面的单引号中
+pygmentsTheme: 'default'
+
+# 友情链接
+friends:
+  jekyll: 'https://www.jekyll.com.cn/'
+
+# 评论 最佳体验 在disqus、livere和Gitment之间三选一
+# disqus 评论
+disqus: false
+disqus_url: '' # https://abc.disqus.com/embed.js
+# 来必力评论
+livere: true
+livere_uid: 'MTAyMC8zNDI2OS8xMDgwNg==' # MTAyMC8zNDI2OS8xMDgwNg==
+# Gitment评论 OAuth Application
+Gitment: false
+Gitment_owner: ''  # github用户名
+Gitment_repo: ''  # github博客存放的仓库名
+client_id: ''  # 注册 OAuth Application 后获得的 client_id
+client_secret: ''  # 注册 OAuth Application 后获得的 client_secret
+
+# Share : weibo, qq, wechat, tencent, douban, qzone, linkedin, diandian, facebook, twitter, google
+social-share: true
+social-share-items: ['qq', 'wechat', 'weibo', 'twitter', 'facebook']
+
+# 百度统计 在baidu-url里填写自己相关的url代码
+baidu: true
+baidu-url: ''
+# 谷歌分析 在google-ID里填写自己在谷歌分析获得的追踪ID
+google: false
+google-ID: ''
+
+# 博客头信息备选颜色（该部分在站点中不充当站点变量，将其写在post的头信息中用来充当页面变量）
+color: rgb(154,133,255) rgb(255,90,90) rgb(255,210,32) rgb(98,170,255)
