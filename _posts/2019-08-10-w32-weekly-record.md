@@ -8,7 +8,7 @@ color: rgb(255,210,32)
 tags: log
 ---
 
-# 190802笔录标注标准补充
+## 190802笔录标注标准补充
 
 
 
@@ -17,13 +17,13 @@ tags: log
 
 
 
-## Abstract：
+### Abstract：
 
 - 标注中遇到的拿捏不准的字词、分组等问题
 
 
 
-## Info & Action：
+### Info & Action：
 
 1. “**电话号码**” → "其他通讯设备"
 2. "**微信号**" → "计算机软件"
@@ -42,6 +42,6 @@ tags: log
 
 
 
-## Question：
+### Question：
 
 暂无
