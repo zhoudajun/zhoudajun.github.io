@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '190802笔录标注标准补充'
-date: 2019-08-10
+date: 2019-08-02
 author: zhoudajun
 color: rgb(254,67,101)
 # 深红色：R=254 G=67 B=101
