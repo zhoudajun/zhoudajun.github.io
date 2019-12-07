@@ -19,7 +19,7 @@ name: '周炟君 | zhoudajun'
 webtitle: '同学，你交作业了吗？'
 bio: '认知学徒'
 about: true
-aboutyou: '预防医学生-艾防科员-新媒体运营-AI训练师'
+aboutyou: '预防医学生-艾防科员-新媒体运营-课程顾问-AI训练师'
 portraits: '/assets/profile.jpg' # your portraits image file path
 
 # SNS
@@ -38,7 +38,7 @@ SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagr
 # Google: ''
   zhihu: 'https://www.zhihu.com/people/zhoudajun2017/activities'
 # juejin: ''
-# twitch: ''
+  weixin: 'http://mp.weixin.qq.com/profile?src=3&timestamp=1575726731&ver=1&signature=VKiYzm6kRyyoNHFl6d4naUT8RGPYpzXnN-BdWpPAacN-3nUmlp8in4kwDTDAfrIaDUJ0Wmktdw92W7vnUPFohQ=='
 
 # 分页
 paginate: 8
